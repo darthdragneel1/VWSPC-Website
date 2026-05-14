@@ -11,15 +11,46 @@
     <header class="nav-header">
         <div class="container nav-container">
             <a href="/" class="logo-placeholder">
-                <img src="/logo.png" alt="VWSPC Logo" style="height: 50px;">
-                <span>VWSPC</span>
+                <div class="logo-text-wrapper">
+                    <div class="logo-short">
+                        <img src="/logo.png" alt="VWSPC Logo" style="height: 50px;">
+                        <span>VWSPC</span>
+                    </div>
+                    <div class="logo-long">
+                        Visiting Wound Specialists & Primary Care
+                    </div>
+                </div>
             </a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="/" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Services</a>
+                        <div class="dropdown-content">
+                            <a href="/services/wound-care.html" class="dropdown-item">Wound Care</a>
+                            <a href="/services/primary-care.html" class="dropdown-item">Primary Care</a>
+                            <a href="/services/psychiatry.html" class="dropdown-item">Psychiatry</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Patients</a>
+                        <div class="dropdown-content">
+                            <a href="/patients/insurances.html" class="dropdown-item">Insurances Accepted</a>
+                            <a href="/patients/forms.html" class="dropdown-item">Patient Forms</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">About</a>
+                        <div class="dropdown-content">
+                            <a href="/about/who-we-are.html" class="dropdown-item">Who We Are</a>
+                            <a href="/about/providers.html" class="dropdown-item">Our Providers</a>
+                            <a href="/about/service-areas.html" class="dropdown-item">Service Areas</a>
+                        </div>
+                    </li>
                     <li><a href="/contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
+            <a href="tel:3134038787" class="btn btn-primary">Call Us (313) 403-8787</a>
         </div>
     </header>
 
@@ -40,9 +71,36 @@
         </section>
     </main>
 
-    <footer style="padding: var(--spacing-md) 0; text-align: center; background: var(--color-bg-light);">
+    <footer>
         <div class="container">
-            <p>&copy; 2026 VWSPC. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="/logo.png" alt="VWSPC Logo" style="height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1);">
+                    <p style="opacity: 0.8; font-size: 0.9rem;">Visiting Wound Specialists and Primary Care. Compassionate care delivered to your door.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about/who-we-are.html">About Us</a></li>
+                        <li><a href="/services/wound-care.html">Wound Care</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p style="font-size: 0.9rem; opacity: 0.8;">39880 Van Dyke Ave, Suite 202<br>Sterling Heights, MI 48313</p>
+                    <p style="margin-top: 1rem; font-weight: 700;">Phone: (313) 403-8787</p>
+                    <p>Fax: (313) 370-5660</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Visiting Wound Specialists and Primary Care. All rights reserved.</p>
+                <div style="margin-top: 0.5rem;">
+                    <a href="/legal/terms.html" style="margin-right: 1rem;">Terms of Use</a>
+                    <a href="/legal/privacy.html">Privacy Policy</a>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
