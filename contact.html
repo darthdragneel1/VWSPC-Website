@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | VWSPC</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-header">
+        <div class="container nav-container">
+            <a href="/" class="logo-placeholder">
+                <img src="/logo.png" alt="VWSPC Logo" style="height: 50px;">
+                <div class="logo-text-wrapper">
+                    <span class="logo-short">VWSPC</span>
+                    <span class="logo-long">Visiting Wound Specialists & Primary Care</span>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Services</a>
+                        <div class="dropdown-content">
+                            <a href="/services/wound-care.html" class="dropdown-item">Wound Care</a>
+                            <a href="/services/primary-care.html" class="dropdown-item">Primary Care</a>
+                            <a href="/services/psychiatry.html" class="dropdown-item">Psychiatry</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Patients</a>
+                        <div class="dropdown-content">
+                            <a href="/patients/insurances.html" class="dropdown-item">Insurances Accepted</a>
+                            <a href="/patients/forms.html" class="dropdown-item">Patient Forms</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">About</a>
+                        <div class="dropdown-content">
+                            <a href="/about/who-we-are.html" class="dropdown-item">Who We Are</a>
+                            <a href="/about/providers.html" class="dropdown-item">Our Providers</a>
+                            <a href="/about/service-areas.html" class="dropdown-item">Service Areas</a>
+                        </div>
+                    </li>
+                    <li><a href="/contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="tel:3134038787" class="btn btn-primary">Call (313) 403-8787</a>
+        </div>
+    </header>
+
+    <main>
+        <section style="padding: var(--spacing-xl) 0; background: var(--color-bg-light);">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: var(--spacing-xl);">
+                    <div>
+                        <h1 style="margin-bottom: var(--spacing-md);">Get in Touch</h1>
+                        <p style="color: var(--color-text-muted); margin-bottom: var(--spacing-lg);">Whether you are a patient, a family member, or a referring physician, we are here to help.</p>
+                        
+                        <div style="margin-bottom: var(--spacing-md);">
+                            <h3 style="font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.25rem;">Phone</h3>
+                            <a href="tel:3134038787" style="font-size: 1.25rem; font-weight: 700; color: var(--color-accent);">(313) 403-8787</a>
+                        </div>
+                        <div style="margin-bottom: var(--spacing-md);">
+                            <h3 style="font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.25rem;">Fax</h3>
+                            <p style="font-size: 1.1rem; font-weight: 500;">(313) 370-5660</p>
+                        </div>
+                        <div style="margin-bottom: var(--spacing-md);">
+                            <h3 style="font-size: 1.1rem; color: var(--color-primary); margin-bottom: 0.25rem;">Address</h3>
+                            <p>39880 Van Dyke Ave, Suite 202<br>Sterling Heights, MI 48313</p>
+                        </div>
+                    </div>
+                    
+                    <div style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow);">
+                        <h2 style="margin-bottom: var(--spacing-md);">Send a Message</h2>
+                        <form style="display: grid; gap: var(--spacing-sm);">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-sm);">
+                                <input type="text" placeholder="Full Name" style="padding: 0.75rem; border: 1px solid var(--color-bg-light); border-radius: 4px;">
+                                <input type="email" placeholder="Email Address" style="padding: 0.75rem; border: 1px solid var(--color-bg-light); border-radius: 4px;">
+                            </div>
+                            <input type="text" placeholder="Phone Number" style="padding: 0.75rem; border: 1px solid var(--color-bg-light); border-radius: 4px;">
+                            <select style="padding: 0.75rem; border: 1px solid var(--color-bg-light); border-radius: 4px; background: white;">
+                                <option value="">Inquiry Type</option>
+                                <option value="wound">Wound Care</option>
+                                <option value="primary">Primary Care</option>
+                                <option value="psychiatry">Psychiatry</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                            <textarea placeholder="Your Message" rows="5" style="padding: 0.75rem; border: 1px solid var(--color-bg-light); border-radius: 4px;"></textarea>
+                            <button type="submit" class="btn btn-primary" style="background: var(--color-accent); border: none;">Send Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background: var(--color-primary); color: white; padding: var(--spacing-md) 0; text-align: center;">
+        <div class="container">
+            <p>&copy; 2026 VWSPC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
